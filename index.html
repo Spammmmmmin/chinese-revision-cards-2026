@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b0b">
+  <meta name="description" content="29/10 文言溫習卡：成語 34-66、古今異義 47-92。">
+  <title>文言溫習 | 29/10</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230b0b0b'/%3E%3Ctext x='32' y='45' fill='%23f0efeb' text-anchor='middle' font-size='42'%3E文%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="header">
+      <h1>文言溫習</h1>
+      <div class="header-actions">
+        <span class="mastered"><span class="mastered-label">已記住</span> <strong id="mastered-count">0 / 79</strong></span>
+        <button id="index-open" class="index-open" type="button" aria-haspopup="dialog" aria-expanded="false">目錄</button>
+      </div>
+    </header>
+
+    <nav class="deck-nav" aria-label="卡片分類">
+      <button class="deck-tab is-active" type="button" data-deck="all" aria-pressed="true">全部 <span>79</span></button>
+      <button class="deck-tab" type="button" data-deck="idiom" aria-pressed="false">成語 <span>33</span></button>
+      <button class="deck-tab" type="button" data-deck="word" aria-pressed="false">古今異義 <span>46</span></button>
+    </nav>
+
+    <main class="study-shell">
+      <div class="study-toolbar">
+        <div class="page-controls">
+          <button id="prev-btn" class="arrow-button" type="button" aria-label="上一張">←</button>
+          <span id="card-position" class="card-position">01 / 79</span>
+          <button id="next-btn" class="arrow-button" type="button" aria-label="下一張">→</button>
+        </div>
+        <div class="study-options">
+          <label class="review-control"><input id="review-only" type="checkbox"><span class="check-box" aria-hidden="true"></span><span>未記住</span></label>
+          <button id="shuffle-btn" class="quiet-button" type="button">打亂</button>
+        </div>
+      </div>
+
+      <div id="study-loading" class="message-panel" role="status">載入中…</div>
+      <div id="study-error" class="message-panel is-hidden" role="alert">載入失敗。請重新整理頁面。</div>
+      <div id="study-empty" class="message-panel is-hidden">這組卡片已全部記住。<button id="show-all-btn" type="button">查看全部</button></div>
+
+      <div id="study-ui" class="is-hidden">
+        <button id="flashcard" class="flashcard" type="button" aria-label="顯示答案" aria-pressed="false">
+          <span class="card-inner">
+          <span class="card-face card-front" aria-hidden="false">
+            <span class="card-header"><span id="front-label">看解釋，想成語</span><span id="front-number">34</span></span>
+            <span class="front-content" id="front-content">在形容人時多指人的著裝不得體，或不合規範。</span>
+            <span class="card-footer">點卡片揭曉 <span aria-hidden="true">↗</span></span>
+          </span>
+          <span class="card-face card-back" aria-hidden="true">
+            <span class="card-header"><span id="back-label">答案</span><span id="back-number">34</span></span>
+            <span class="back-content"><span class="answer-main" id="answer-main">不倫不類</span><span class="answer-support" id="answer-support"></span><span class="answer-reference" id="answer-reference"></span></span>
+            <span class="card-footer">點卡片重看題目 <span aria-hidden="true">↶</span></span>
+          </span>
+          </span>
+        </button>
+
+        <div class="response-row" id="response-row">
+          <button id="reveal-btn" class="reveal-button" type="button">顯示答案 <span aria-hidden="true">↗</span></button>
+          <div id="grade-actions" class="grade-actions is-hidden">
+            <button id="again-btn" class="again-button" type="button">再溫習</button>
+            <button id="known-btn" class="known-button" type="button">記住了</button>
+          </div>
+        </div>
+        <p class="keyboard-help">空白鍵揭曉　← → 換卡　1 再溫習　2 記住了</p>
+      </div>
+    </main>
+
+    <div id="index-overlay" class="index-overlay is-hidden">
+      <button id="index-scrim" class="index-scrim" type="button" aria-label="關閉目錄"></button>
+      <aside class="index-panel" role="dialog" aria-modal="true" aria-labelledby="index-title">
+        <div class="index-header"><h2 id="index-title">目錄 <span id="index-count">79</span></h2><button id="index-close" type="button" aria-label="關閉目錄">×</button></div>
+        <label class="search-label" for="search">搜尋卡片</label>
+        <input id="search" class="search" type="search" placeholder="搜尋成語或字詞" autocomplete="off">
+        <div id="card-list" class="card-list"></div>
+        <p id="index-empty" class="index-empty is-hidden">找不到相關卡片。</p>
+      </aside>
+    </div>
+  </div>
+</body>
+</html>

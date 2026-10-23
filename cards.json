@@ -1,0 +1,647 @@
+[
+  {
+    "id": "i34",
+    "kind": "idiom",
+    "number": 34,
+    "term": "不倫不類",
+    "meaning": "在形容人時多指人的著裝不得體，或不合規範。"
+  },
+  {
+    "id": "i35",
+    "kind": "idiom",
+    "number": 35,
+    "term": "不落窠臼",
+    "meaning": "比喻有獨創風格，不落舊套。"
+  },
+  {
+    "id": "i36",
+    "kind": "idiom",
+    "number": 36,
+    "term": "不情之請",
+    "meaning": "不合情理的請求。"
+  },
+  {
+    "id": "i37",
+    "kind": "idiom",
+    "number": 37,
+    "term": "不容置喙",
+    "meaning": "不允許別人插嘴說話，參與意見。"
+  },
+  {
+    "id": "i38",
+    "kind": "idiom",
+    "number": 38,
+    "term": "不容分說",
+    "meaning": "不容人分辯。"
+  },
+  {
+    "id": "i39",
+    "kind": "idiom",
+    "number": 39,
+    "term": "不勝其煩",
+    "meaning": "貶義詞，指不能忍受其煩瑣。"
+  },
+  {
+    "id": "i40",
+    "kind": "idiom",
+    "number": 40,
+    "term": "不時之需",
+    "meaning": "說不定什麼時候會出現的需要。"
+  },
+  {
+    "id": "i41",
+    "kind": "idiom",
+    "number": 41,
+    "term": "不速之客",
+    "meaning": "指沒有邀請突然而來的客人。"
+  },
+  {
+    "id": "i42",
+    "kind": "idiom",
+    "number": 42,
+    "term": "不學無術",
+    "meaning": "指「沒有學問才能」。不能在其前加上「整天」、「整月」等修飾詞語。「學」為名詞，常誤作動詞。"
+  },
+  {
+    "id": "i43",
+    "kind": "idiom",
+    "number": 43,
+    "term": "不一而足",
+    "meaning": "指同類的事物不只一個而是很多，無法列舉齊全。"
+  },
+  {
+    "id": "i44",
+    "kind": "idiom",
+    "number": 44,
+    "term": "不以為然",
+    "meaning": "指「不認為是正確的」，常誤用為「不以為意」，表示「不放在心上」、「無所謂」。"
+  },
+  {
+    "id": "i45",
+    "kind": "idiom",
+    "number": 45,
+    "term": "不翼而飛",
+    "meaning": "比喻物品忽然丟失，也比喻事情傳播得很迅速。"
+  },
+  {
+    "id": "i46",
+    "kind": "idiom",
+    "number": 46,
+    "term": "不知所云",
+    "meaning": "不知說的是什麼，指語言紊亂或空洞，它指的是說話人。易誤解為「聽者沒有理解」。"
+  },
+  {
+    "id": "i47",
+    "kind": "idiom",
+    "number": 47,
+    "term": "不足為訓",
+    "meaning": "不值得作為效法的準則或榜樣。"
+  },
+  {
+    "id": "i48",
+    "kind": "idiom",
+    "number": 48,
+    "term": "不忍卒讀",
+    "meaning": "「不忍心讀完」，形容文章的「悲」。常誤用為形容文章寫得不好。"
+  },
+  {
+    "id": "i49",
+    "kind": "idiom",
+    "number": 49,
+    "term": "才疏學淺",
+    "meaning": "才學不高，學識不深（多用作自謙的話）。"
+  },
+  {
+    "id": "i50",
+    "kind": "idiom",
+    "number": 50,
+    "term": "慘澹經營",
+    "meaning": "費盡心思辛辛苦苦地經營籌畫，後指在困難的境況中艱苦地從事某種事業。"
+  },
+  {
+    "id": "i51",
+    "kind": "idiom",
+    "number": 51,
+    "term": "參差不齊",
+    "meaning": "長短高低大小水平不一致，不用於時間等。"
+  },
+  {
+    "id": "i52",
+    "kind": "idiom",
+    "number": 52,
+    "term": "層出不窮",
+    "meaning": "接連不斷地出現，沒有窮盡。"
+  },
+  {
+    "id": "i53",
+    "kind": "idiom",
+    "number": 53,
+    "term": "曾經滄海",
+    "meaning": "比喻曾經見過大世面，不把平常事物放在眼裡。"
+  },
+  {
+    "id": "i54",
+    "kind": "idiom",
+    "number": 54,
+    "term": "差強人意",
+    "meaning": "原指能振奮人的意志，多表示大體上還能使人滿意。是褒義詞。"
+  },
+  {
+    "id": "i55",
+    "kind": "idiom",
+    "number": 55,
+    "term": "長此以往",
+    "meaning": "長期這樣下去。多用於不好的情況。"
+  },
+  {
+    "id": "i56",
+    "kind": "idiom",
+    "number": 56,
+    "term": "側目而視",
+    "meaning": "形容畏懼而又憤恨，易誤解為尊敬。"
+  },
+  {
+    "id": "i57",
+    "kind": "idiom",
+    "number": 57,
+    "term": "出神入化",
+    "meaning": "形容技藝高超。易誤用為形容聽得出神。"
+  },
+  {
+    "id": "i58",
+    "kind": "idiom",
+    "number": 58,
+    "term": "充耳不聞",
+    "meaning": "塞住耳朵不聽，形容不願聽取別人的意見。易誤用形容人專心沒有聽到。"
+  },
+  {
+    "id": "i59",
+    "kind": "idiom",
+    "number": 59,
+    "term": "出奇制勝",
+    "meaning": "用奇兵或奇計制服敵人，取得勝利。現在指用別人意想不到的方法取勝。"
+  },
+  {
+    "id": "i60",
+    "kind": "idiom",
+    "number": 60,
+    "term": "處心積慮",
+    "meaning": "千方百計盤算，貶義詞。"
+  },
+  {
+    "id": "i61",
+    "kind": "idiom",
+    "number": 61,
+    "term": "春風化雨",
+    "meaning": "適宜於草木生長的風雨，比喻良好的教育。"
+  },
+  {
+    "id": "i62",
+    "kind": "idiom",
+    "number": 62,
+    "term": "蹉跎歲月",
+    "meaning": "指虛度光陰。"
+  },
+  {
+    "id": "i63",
+    "kind": "idiom",
+    "number": 63,
+    "term": "塵埃落定",
+    "meaning": "指一件事情已經有了結果。"
+  },
+  {
+    "id": "i64",
+    "kind": "idiom",
+    "number": 64,
+    "term": "持之有故",
+    "meaning": "指所持的見解和主張有一定的根據。"
+  },
+  {
+    "id": "i65",
+    "kind": "idiom",
+    "number": 65,
+    "term": "出爾反爾",
+    "meaning": "自己說了或做了以後又反悔，不承認。"
+  },
+  {
+    "id": "i66",
+    "kind": "idiom",
+    "number": 66,
+    "term": "初出茅廬",
+    "meaning": "原比喻新露頭腳。現比喻剛離開家庭或學校出來工作。缺乏經驗。"
+  },
+  {
+    "id": "w47",
+    "kind": "word",
+    "number": 47,
+    "term": "扶老",
+    "meaning": "拐杖",
+    "example": "策扶老以流憩。",
+    "reference": "《歸去來辭》"
+  },
+  {
+    "id": "w48",
+    "kind": "word",
+    "number": 48,
+    "term": "把握",
+    "meaning": "手掌內",
+    "example": "其為物輕微易藏，在於把握。",
+    "reference": "《論貴粟疏》"
+  },
+  {
+    "id": "w49",
+    "kind": "word",
+    "number": 49,
+    "term": "改善",
+    "meaning": "改惡遷善",
+    "example": "既懷恥惡，必能改善。",
+    "reference": "《後漢書‧獨行傳》"
+  },
+  {
+    "id": "w50",
+    "kind": "word",
+    "number": 50,
+    "term": "更衣",
+    "meaning": "上廁所",
+    "example": "權起更衣，肅追於宇下。",
+    "reference": "《赤壁之戰》"
+  },
+  {
+    "id": "w51",
+    "kind": "word",
+    "number": 51,
+    "term": "更事",
+    "meaning": "常發生的事情",
+    "example": "饑穰更事耳，不可不與。",
+    "reference": "《史記‧秦本紀》"
+  },
+  {
+    "id": "w52",
+    "kind": "word",
+    "number": 52,
+    "term": "束手",
+    "meaning": "投降",
+    "example": "劉琮束手。",
+    "reference": "《赤壁之戰》"
+  },
+  {
+    "id": "w53",
+    "kind": "word",
+    "number": 53,
+    "term": "沖撞",
+    "meaning": "撞擊",
+    "example": "白頭危浪自沖撞。",
+    "reference": "《瓜州阻風》"
+  },
+  {
+    "id": "w54",
+    "kind": "word",
+    "number": 54,
+    "term": "私心",
+    "meaning": "內心",
+    "example": "無乃舆僕私心刺繆乎。",
+    "reference": "《報任安書》"
+  },
+  {
+    "id": "w55",
+    "kind": "word",
+    "number": 55,
+    "term": "赤子",
+    "meaning": "百姓；初生嬰兒",
+    "example": "皆我東南赤子膏血也。／赤子之心。",
+    "reference": "《方臘起義》／《孟子‧離婁》"
+  },
+  {
+    "id": "w56",
+    "kind": "word",
+    "number": 56,
+    "term": "乖戾",
+    "meaning": "矛盾",
+    "example": "各有所執，乖戾分爭。",
+    "reference": "《後漢書‧范升傳》"
+  },
+  {
+    "id": "w57",
+    "kind": "word",
+    "number": 57,
+    "term": "其實",
+    "meaning": "那實際情況",
+    "example": "較秦之所得，與戰勝而得者，其實百倍。",
+    "reference": "《六國論》"
+  },
+  {
+    "id": "w58",
+    "kind": "word",
+    "number": 58,
+    "term": "具體",
+    "meaning": "「具」是具備；「體」是形體",
+    "example": "亦雁蕩之具體而微者。",
+    "reference": "《雁蕩山》"
+  },
+  {
+    "id": "w59",
+    "kind": "word",
+    "number": 59,
+    "term": "初",
+    "meaning": "剛剛開始",
+    "example": "初交戰，操軍不利。",
+    "reference": "《赤壁之戰》"
+  },
+  {
+    "id": "w60",
+    "kind": "word",
+    "number": 60,
+    "term": "卑鄙",
+    "meaning": "「卑」是出身卑微；「鄙」是鄙陋",
+    "example": "先帝不以臣卑鄙。",
+    "reference": "《出師表》"
+  },
+  {
+    "id": "w61",
+    "kind": "word",
+    "number": 61,
+    "term": "味道",
+    "meaning": "體會道理",
+    "example": "安貧樂潛，味道守真。",
+    "reference": "《後漢書‧申屠蟠傳》"
+  },
+  {
+    "id": "w62",
+    "kind": "word",
+    "number": 62,
+    "term": "奉承",
+    "meaning": "承受",
+    "example": "奉承以來，弗敢失隕。",
+    "reference": "《左傳‧昭公七年》"
+  },
+  {
+    "id": "w63",
+    "kind": "word",
+    "number": 63,
+    "term": "奔馳",
+    "meaning": "車馬疾行",
+    "example": "或乘騎奔馳。",
+    "reference": "《漢書‧五行志下之上》"
+  },
+  {
+    "id": "w64",
+    "kind": "word",
+    "number": 64,
+    "term": "妻子",
+    "meaning": "妻和子女",
+    "example": "子布、元表諸人各顧妻子。",
+    "reference": "《赤壁之戰》"
+  },
+  {
+    "id": "w65",
+    "kind": "word",
+    "number": 65,
+    "term": "孤獨",
+    "meaning": "幼而無父和老而無子",
+    "example": "收恤孤獨，以育羣生。",
+    "reference": "《史記‧孝文本紀》"
+  },
+  {
+    "id": "w66",
+    "kind": "word",
+    "number": 66,
+    "term": "府",
+    "meaning": "收藏財寶的地方",
+    "example": "倉府兩實，國強。",
+    "reference": "《商君書‧去強》"
+  },
+  {
+    "id": "w67",
+    "kind": "word",
+    "number": 67,
+    "term": "或者",
+    "meaning": "有的人、有些人",
+    "example": "或者曰：「高、曾之時……」",
+    "reference": "《治平篇》"
+  },
+  {
+    "id": "w68",
+    "kind": "word",
+    "number": 68,
+    "term": "所以",
+    "meaning": "……的原因；用來……的辦法、手段或工具",
+    "example": "此其所以敗也。",
+    "reference": "《察今》"
+  },
+  {
+    "id": "w69",
+    "kind": "word",
+    "number": 69,
+    "term": "是",
+    "meaning": "這（工作）",
+    "example": "吾祖死於是，吾父死於是。",
+    "reference": "《捕蛇者說》"
+  },
+  {
+    "id": "w70",
+    "kind": "word",
+    "number": 70,
+    "term": "東西",
+    "meaning": "朝東、朝西",
+    "example": "從流漂蕩，任意東西。",
+    "reference": "《與朱元思書》"
+  },
+  {
+    "id": "w71",
+    "kind": "word",
+    "number": 71,
+    "term": "非常",
+    "meaning": "意外事故",
+    "example": "備他盜之出入與非常也。",
+    "reference": "《鴻門宴》"
+  },
+  {
+    "id": "w72",
+    "kind": "word",
+    "number": 72,
+    "term": "便宜",
+    "meaning": "有利和應該做的事",
+    "example": "因前言便宜事。",
+    "reference": "《史記‧張釋之列傳》"
+  },
+  {
+    "id": "w73",
+    "kind": "word",
+    "number": 73,
+    "term": "前進",
+    "meaning": "「前」是走上前；「進」是獻上",
+    "example": "相如前進缶。",
+    "reference": "《廉頗藺相如列傳》"
+  },
+  {
+    "id": "w74",
+    "kind": "word",
+    "number": 74,
+    "term": "南面",
+    "meaning": "「南」是向南；「面」是面對、朝向",
+    "example": "俱使之南面上坐。",
+    "reference": "《柳敬亨傳》"
+  },
+  {
+    "id": "w75",
+    "kind": "word",
+    "number": 75,
+    "term": "怠慢",
+    "meaning": "鬆懈、輕忽",
+    "example": "怠慢忘身，禍災乃作。",
+    "reference": "《勸學》"
+  },
+  {
+    "id": "w76",
+    "kind": "word",
+    "number": 76,
+    "term": "拜辭",
+    "meaning": "拜別告辭",
+    "example": "獨道側拜辭。",
+    "reference": "《南史‧王弘傳》"
+  },
+  {
+    "id": "w77",
+    "kind": "word",
+    "number": 77,
+    "term": "指示",
+    "meaning": "指給人看",
+    "example": "璧有瑕，請指示王。",
+    "reference": "《廉頗藺相如列傳》"
+  },
+  {
+    "id": "w78",
+    "kind": "word",
+    "number": 78,
+    "term": "故事",
+    "meaning": "舊事",
+    "example": "從六國破亡之故事。",
+    "reference": "《六國論》"
+  },
+  {
+    "id": "w79",
+    "kind": "word",
+    "number": 79,
+    "term": "故意",
+    "meaning": "原意",
+    "example": "今樂府所存，失其故意。",
+    "reference": "《采蓮曲序》"
+  },
+  {
+    "id": "w80",
+    "kind": "word",
+    "number": 80,
+    "term": "春秋",
+    "meaning": "年齡；一年；書名",
+    "example": "天子春秋鼎盛。",
+    "reference": "《治安策》"
+  },
+  {
+    "id": "w81",
+    "kind": "word",
+    "number": 81,
+    "term": "相戀",
+    "meaning": "互相依靠",
+    "example": "兄弟相戀，不能別寢。",
+    "reference": "《後漢書‧姜肱傳》"
+  },
+  {
+    "id": "w82",
+    "kind": "word",
+    "number": 82,
+    "term": "秋天",
+    "meaning": "「秋」是秋天；「天」是天空",
+    "example": "秋天漠漠向昏黑。",
+    "reference": "《茅屋為秋風所破歌》"
+  },
+  {
+    "id": "w83",
+    "kind": "word",
+    "number": 83,
+    "term": "突出",
+    "meaning": "驟然衝出",
+    "example": "鐵騎突出刀槍鳴。",
+    "reference": "《琵琶行》"
+  },
+  {
+    "id": "w84",
+    "kind": "word",
+    "number": 84,
+    "term": "約束",
+    "meaning": "法令；盟約",
+    "example": "悉更約束，易置軍吏。",
+    "reference": "《史記‧廉頗藺相如列傳》"
+  },
+  {
+    "id": "w85",
+    "kind": "word",
+    "number": 85,
+    "term": "背負",
+    "meaning": "背靠着或對着",
+    "example": "背負青天而莫之夭閼者。",
+    "reference": "《莊子‧逍遙遊》"
+  },
+  {
+    "id": "w86",
+    "kind": "word",
+    "number": 86,
+    "term": "致意",
+    "meaning": "抒發心情",
+    "example": "一篇之中，三致意焉。",
+    "reference": "《屈原列傳》"
+  },
+  {
+    "id": "w87",
+    "kind": "word",
+    "number": 87,
+    "term": "風流",
+    "meaning": "英俊、傑出",
+    "example": "千古風流人物。",
+    "reference": "《念奴嬌‧赤壁懷古》"
+  },
+  {
+    "id": "w88",
+    "kind": "word",
+    "number": 88,
+    "term": "根本",
+    "meaning": "植物的根幹",
+    "example": "根本不美，枝葉茂者，未之聞也。",
+    "reference": "《淮南子‧繆稱訓》"
+  },
+  {
+    "id": "w89",
+    "kind": "word",
+    "number": 89,
+    "term": "殷勤",
+    "meaning": "關切、問候",
+    "example": "致殷勤之意。",
+    "reference": "《赤壁之戰》"
+  },
+  {
+    "id": "w90",
+    "kind": "word",
+    "number": 90,
+    "term": "烈士",
+    "meaning": "有志於建立功業的人",
+    "example": "烈士暮年，壯心不已。",
+    "reference": "《龜雖壽》"
+  },
+  {
+    "id": "w91",
+    "kind": "word",
+    "number": 91,
+    "term": "班房",
+    "meaning": "差役值班的地方",
+    "example": "且到班房少待。",
+    "reference": "《長生殿‧賄權》"
+  },
+  {
+    "id": "w92",
+    "kind": "word",
+    "number": 92,
+    "term": "留意",
+    "meaning": "考慮",
+    "example": "先生可留意矣。",
+    "reference": "《中山狼傳》"
+  }
+]
