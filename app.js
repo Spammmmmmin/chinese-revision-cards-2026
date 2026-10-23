@@ -4,6 +4,7 @@ const state = {
 };
 const $ = (id) => document.getElementById(id);
 const labels = { idiom: '成語', word: '古今異義' };
+const progressImport = new URLSearchParams(location.hash.slice(1)).get('progress');
 
 try {
   const saved = JSON.parse(localStorage.getItem('wenyan-mastered') || '[]');
@@ -169,6 +170,12 @@ document.addEventListener('keydown', (event) => {
 fetch('cards.json').then((response) => { if (!response.ok) throw new Error('cards'); return response.json(); }).then((cards) => {
   if (!Array.isArray(cards) || cards.length !== 79) throw new Error('card count');
   state.cards = cards;
+  if (progressImport) {
+    const validIds = new Set(cards.map((card) => card.id));
+    progressImport.split(',').filter((id) => validIds.has(id)).forEach((id) => state.mastered.add(id));
+    save();
+    history.replaceState(null, '', location.pathname + location.search);
+  }
   $('study-loading').classList.add('is-hidden');
   rebuildOrder();
 }).catch(() => { $('study-loading').classList.add('is-hidden'); $('study-error').classList.remove('is-hidden'); });
