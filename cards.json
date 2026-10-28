@@ -643,5 +643,401 @@
     "meaning": "考慮",
     "example": "先生可留意矣。",
     "reference": "《中山狼傳》"
+  },
+  {
+    "id": "ren1",
+    "kind": "ren",
+    "number": 1,
+    "term": "約",
+    "meaning": "窮困、貧困",
+    "example": "不可以久處約",
+    "reference": "《論仁、論孝、論君子》"
+  },
+  {
+    "id": "ren2",
+    "kind": "ren",
+    "number": 2,
+    "term": "安仁",
+    "meaning": "安於仁德；實行仁德而心安",
+    "example": "仁者安仁",
+    "reference": "《論仁、論孝、論君子》"
+  },
+  {
+    "id": "ren3",
+    "kind": "ren",
+    "number": 3,
+    "term": "利仁",
+    "meaning": "認識到實行仁德的好處",
+    "example": "知者利仁",
+    "reference": "《論仁、論孝、論君子》"
+  },
+  {
+    "id": "ren4",
+    "kind": "ren",
+    "number": 4,
+    "term": "是",
+    "meaning": "這",
+    "example": "是人之所欲也",
+    "reference": "《論仁、論孝、論君子》"
+  },
+  {
+    "id": "ren5",
+    "kind": "ren",
+    "number": 5,
+    "term": "去",
+    "meaning": "捨棄、拋棄",
+    "example": "不以其道得之，不去也",
+    "reference": "《論仁、論孝、論君子》"
+  },
+  {
+    "id": "ren6",
+    "kind": "ren",
+    "number": 6,
+    "term": "惡",
+    "meaning": "怎麼、如何",
+    "example": "惡乎成名",
+    "reference": "《論仁、論孝、論君子》"
+  },
+  {
+    "id": "ren7",
+    "kind": "ren",
+    "number": 7,
+    "term": "間",
+    "meaning": "時間；此處指一頓飯的時間",
+    "example": "君子無終食之間違仁",
+    "reference": "《論仁、論孝、論君子》"
+  },
+  {
+    "id": "ren8",
+    "kind": "ren",
+    "number": 8,
+    "term": "造次",
+    "meaning": "倉促、匆忙",
+    "example": "造次必於是",
+    "reference": "《論仁、論孝、論君子》"
+  },
+  {
+    "id": "ren9",
+    "kind": "ren",
+    "number": 9,
+    "term": "顛沛",
+    "meaning": "困頓、窮困",
+    "example": "顛沛必於是",
+    "reference": "《論仁、論孝、論君子》"
+  },
+  {
+    "id": "ren10",
+    "kind": "ren",
+    "number": 10,
+    "term": "由",
+    "meaning": "憑、依靠",
+    "example": "為仁由己",
+    "reference": "《論仁、論孝、論君子》"
+  },
+  {
+    "id": "ren11",
+    "kind": "ren",
+    "number": 11,
+    "term": "斯",
+    "meaning": "這",
+    "example": "請事斯語矣",
+    "reference": "《論仁、論孝、論君子》"
+  },
+  {
+    "id": "ren12",
+    "kind": "ren",
+    "number": 12,
+    "term": "御",
+    "meaning": "駕駛馬車",
+    "example": "樊遲御",
+    "reference": "《論仁、論孝、論君子》"
+  },
+  {
+    "id": "ren13",
+    "kind": "ren",
+    "number": 13,
+    "term": "幾",
+    "meaning": "輕微、婉轉",
+    "example": "事父母幾諫",
+    "reference": "《論仁、論孝、論君子》"
+  },
+  {
+    "id": "ren14",
+    "kind": "ren",
+    "number": 14,
+    "term": "諫",
+    "meaning": "勸諫、規勸",
+    "example": "事父母幾諫",
+    "reference": "《論仁、論孝、論君子》"
+  },
+  {
+    "id": "ren15",
+    "kind": "ren",
+    "number": 15,
+    "term": "重",
+    "meaning": "莊重",
+    "example": "君子不重",
+    "reference": "《論仁、論孝、論君子》"
+  },
+  {
+    "id": "ren16",
+    "kind": "ren",
+    "number": 16,
+    "term": "威",
+    "meaning": "威嚴、威儀",
+    "example": "則不威",
+    "reference": "《論仁、論孝、論君子》"
+  },
+  {
+    "id": "ren17",
+    "kind": "ren",
+    "number": 17,
+    "term": "固",
+    "meaning": "牢固；亦可解作固陋",
+    "example": "學則不固",
+    "reference": "《論仁、論孝、論君子》"
+  },
+  {
+    "id": "ren18",
+    "kind": "ren",
+    "number": 18,
+    "term": "憚",
+    "meaning": "害怕、畏懼",
+    "example": "過則勿憚改",
+    "reference": "《論仁、論孝、論君子》"
+  },
+  {
+    "id": "ren19",
+    "kind": "ren",
+    "number": 19,
+    "term": "戚戚",
+    "meaning": "經常憂愁、憂懼",
+    "example": "小人長戚戚",
+    "reference": "《論仁、論孝、論君子》"
+  },
+  {
+    "id": "ren20",
+    "kind": "ren",
+    "number": 20,
+    "term": "質",
+    "meaning": "本質、原則",
+    "example": "君子義以為質",
+    "reference": "《論仁、論孝、論君子》"
+  },
+  {
+    "id": "ren21",
+    "kind": "ren",
+    "number": 21,
+    "term": "孫",
+    "meaning": "通「遜」；謙遜",
+    "example": "孫以出之",
+    "reference": "《論仁、論孝、論君子》"
+  },
+  {
+    "id": "ren22",
+    "kind": "ren",
+    "number": 22,
+    "term": "病",
+    "meaning": "擔憂、憂慮",
+    "example": "君子病無能焉",
+    "reference": "《論仁、論孝、論君子》"
+  },
+  {
+    "id": "ren23",
+    "kind": "ren",
+    "number": 23,
+    "term": "諸",
+    "meaning": "之於",
+    "example": "君子求諸己",
+    "reference": "《論仁、論孝、論君子》"
+  },
+  {
+    "id": "fish1",
+    "kind": "fish",
+    "number": 1,
+    "term": "亦",
+    "meaning": "也、也是",
+    "example": "熊掌，亦我所欲也",
+    "reference": "《魚我所欲也》"
+  },
+  {
+    "id": "fish2",
+    "kind": "fish",
+    "number": 2,
+    "term": "得",
+    "meaning": "能夠、可以",
+    "example": "二者不可得兼",
+    "reference": "《魚我所欲也》"
+  },
+  {
+    "id": "fish3",
+    "kind": "fish",
+    "number": 3,
+    "term": "故",
+    "meaning": "因此、所以",
+    "example": "故不為苟得",
+    "reference": "《魚我所欲也》"
+  },
+  {
+    "id": "fish4",
+    "kind": "fish",
+    "number": 4,
+    "term": "苟",
+    "meaning": "隨便、輕率",
+    "example": "故不為苟得",
+    "reference": "《魚我所欲也》"
+  },
+  {
+    "id": "fish5",
+    "kind": "fish",
+    "number": 5,
+    "term": "患",
+    "meaning": "禍患、災禍",
+    "example": "故患有所不辟也",
+    "reference": "《魚我所欲也》"
+  },
+  {
+    "id": "fish6",
+    "kind": "fish",
+    "number": 6,
+    "term": "辟",
+    "meaning": "通「避」；躲避",
+    "example": "故患有所不辟也",
+    "reference": "《魚我所欲也》"
+  },
+  {
+    "id": "fish7",
+    "kind": "fish",
+    "number": 7,
+    "term": "如使",
+    "meaning": "假如、假設",
+    "example": "如使人之所欲莫甚於生",
+    "reference": "《魚我所欲也》"
+  },
+  {
+    "id": "fish8",
+    "kind": "fish",
+    "number": 8,
+    "term": "是",
+    "meaning": "這",
+    "example": "非獨賢者有是心也",
+    "reference": "《魚我所欲也》"
+  },
+  {
+    "id": "fish9",
+    "kind": "fish",
+    "number": 9,
+    "term": "喪",
+    "meaning": "失去、喪失",
+    "example": "賢者能勿喪耳",
+    "reference": "《魚我所欲也》"
+  },
+  {
+    "id": "fish10",
+    "kind": "fish",
+    "number": 10,
+    "term": "耳",
+    "meaning": "罷了；句末語氣詞",
+    "example": "賢者能勿喪耳",
+    "reference": "《魚我所欲也》"
+  },
+  {
+    "id": "fish11",
+    "kind": "fish",
+    "number": 11,
+    "term": "簞",
+    "meaning": "盛飯的竹器",
+    "example": "一簞食，一豆羹",
+    "reference": "《魚我所欲也》"
+  },
+  {
+    "id": "fish12",
+    "kind": "fish",
+    "number": 12,
+    "term": "豆",
+    "meaning": "盛載食物的器皿",
+    "example": "一簞食，一豆羹",
+    "reference": "《魚我所欲也》"
+  },
+  {
+    "id": "fish13",
+    "kind": "fish",
+    "number": 13,
+    "term": "羹",
+    "meaning": "帶汁的肉食、羹湯",
+    "example": "一簞食，一豆羹",
+    "reference": "《魚我所欲也》"
+  },
+  {
+    "id": "fish14",
+    "kind": "fish",
+    "number": 14,
+    "term": "嘑",
+    "meaning": "大聲呼喝；一說同「呼」",
+    "example": "嘑爾而與之",
+    "reference": "《魚我所欲也》"
+  },
+  {
+    "id": "fish15",
+    "kind": "fish",
+    "number": 15,
+    "term": "與",
+    "meaning": "給予",
+    "example": "嘑爾而與之",
+    "reference": "《魚我所欲也》"
+  },
+  {
+    "id": "fish16",
+    "kind": "fish",
+    "number": 16,
+    "term": "行道之人",
+    "meaning": "路人、路上一般人",
+    "example": "行道之人弗受",
+    "reference": "《魚我所欲也》"
+  },
+  {
+    "id": "fish17",
+    "kind": "fish",
+    "number": 17,
+    "term": "弗",
+    "meaning": "不",
+    "example": "行道之人弗受",
+    "reference": "《魚我所欲也》"
+  },
+  {
+    "id": "fish18",
+    "kind": "fish",
+    "number": 18,
+    "term": "蹴",
+    "meaning": "踢、踐踏",
+    "example": "蹴爾而與之",
+    "reference": "《魚我所欲也》"
+  },
+  {
+    "id": "fish19",
+    "kind": "fish",
+    "number": 19,
+    "term": "不屑",
+    "meaning": "輕視",
+    "example": "乞人不屑也",
+    "reference": "《魚我所欲也》"
+  },
+  {
+    "id": "fish20",
+    "kind": "fish",
+    "number": 20,
+    "term": "辯",
+    "meaning": "通「辨」；分辨",
+    "example": "不辯禮義而受之",
+    "reference": "《魚我所欲也》"
+  },
+  {
+    "id": "fish21",
+    "kind": "fish",
+    "number": 21,
+    "term": "鍾",
+    "meaning": "古代量器；此處是俸祿的計量單位",
+    "example": "萬鍾於我何加焉？",
+    "reference": "《魚我所欲也》"
   }
 ]

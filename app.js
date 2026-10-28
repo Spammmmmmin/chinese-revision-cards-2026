@@ -3,7 +3,7 @@ const state = {
   flipped: false, mastered: new Set(), search: '', indexOpen: false
 };
 const $ = (id) => document.getElementById(id);
-const labels = { idiom: '成語', word: '古今異義' };
+const labels = { idiom: '成語', word: '古今異義', ren: '論仁論孝論君子', fish: '魚我所欲也' };
 const progressImport = new URLSearchParams(location.hash.slice(1)).get('progress');
 
 try {
@@ -43,10 +43,13 @@ function render() {
   $('study-empty').classList.toggle('is-hidden', !!card);
   if (card) {
     const idiom = card.kind === 'idiom';
+    const passage = card.kind === 'ren' || card.kind === 'fish';
     const surface = $('flashcard');
     surface.classList.toggle('is-idiom', idiom);
     surface.classList.toggle('is-word', !idiom);
+    surface.classList.toggle('is-passage', passage);
     surface.classList.toggle('is-long', idiom && card.meaning.length > 61);
+    surface.classList.toggle('is-long-term', !idiom && card.term.length > 3);
     surface.classList.toggle('is-long-answer', !idiom && card.meaning.length > 17);
     surface.classList.toggle('is-flipped', state.flipped);
     surface.setAttribute('aria-pressed', String(state.flipped));
@@ -54,10 +57,12 @@ function render() {
     surface.querySelector('.card-front').setAttribute('aria-hidden', String(state.flipped));
     surface.querySelector('.card-back').setAttribute('aria-hidden', String(!state.flipped));
 
-    $('front-label').textContent = idiom ? '看解釋，想成語' : '說出古義';
+    $('front-label').textContent = idiom ? '看解釋，想成語' : passage ? '根據原句，說出字義' : '說出古義';
     $('front-number').textContent = card.number;
     $('front-content').textContent = idiom ? card.meaning : card.term;
-    $('back-label').textContent = idiom ? '成語答案' : `${card.term}的古義`;
+    $('front-context').textContent = passage ? card.example : '';
+    $('front-context').classList.toggle('is-hidden', !passage);
+    $('back-label').textContent = idiom ? '成語答案' : `${card.term}的${passage ? '字義' : '古義'}`;
     $('back-number').textContent = card.number;
     $('answer-main').textContent = idiom ? card.term : card.meaning;
     $('answer-support').textContent = idiom ? '' : card.example || '';
@@ -73,7 +78,7 @@ function render() {
 
 function renderIndex() {
   const q = state.search.trim().toLocaleLowerCase();
-  const shown = deckCards().filter((card) => !q || `${card.term} ${card.meaning}`.toLocaleLowerCase().includes(q));
+  const shown = deckCards().filter((card) => !q || `${card.term} ${card.meaning} ${card.example || ''}`.toLocaleLowerCase().includes(q));
   $('index-count').textContent = String(shown.length);
   $('index-empty').classList.toggle('is-hidden', shown.length > 0);
   const list = $('card-list');
@@ -168,8 +173,11 @@ document.addEventListener('keydown', (event) => {
 });
 
 fetch('cards.json').then((response) => { if (!response.ok) throw new Error('cards'); return response.json(); }).then((cards) => {
-  if (!Array.isArray(cards) || cards.length !== 79) throw new Error('card count');
+  if (!Array.isArray(cards) || cards.length !== 123) throw new Error('card count');
   state.cards = cards;
+  document.querySelectorAll('.deck-tab').forEach((button) => {
+    button.querySelector('span').textContent = cards.filter((card) => button.dataset.deck === 'all' || card.kind === button.dataset.deck).length;
+  });
   if (progressImport) {
     const validIds = new Set(cards.map((card) => card.id));
     progressImport.split(',').filter((id) => validIds.has(id)).forEach((id) => state.mastered.add(id));
